@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Table>
+<Row>
+<IsCorrect>True</IsCorrect>
+<IsDirectDebitCapable>True</IsDirectDebitCapable>
+<StatusInformation>OK</StatusInformation>
+<CorrectedSortCode>208111</CorrectedSortCode>
+<CorrectedAccountNumber>60687782</CorrectedAccountNumber>
+<IBAN>GB40BARC20811160687782</IBAN>
+<Bank>BARCLAYS BANK PLC</Bank>
+<BankBIC>BARCGB21</BankBIC>
+<Branch>Staines</Branch>
+<BranchBIC>0LM</BranchBIC>
+<ContactAddressLine1/>
+<ContactAddressLine2/>
+<ContactPostTown>Leicester</ContactPostTown>
+<ContactPostcode>LE87 2BB</ContactPostcode>
+<ContactPhone>0845 7555555</ContactPhone>
+<ContactFax/>
+<FasterPaymentsSupported>True</FasterPaymentsSupported>
+<CHAPSSupported>True</CHAPSSupported>
+</Row>
+</Table>

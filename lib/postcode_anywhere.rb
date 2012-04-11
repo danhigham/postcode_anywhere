@@ -2,6 +2,7 @@ require "httparty"
 require "postcode_anywhere/validator"
 require "postcode_anywhere/lookup"
 require "postcode_anywhere/address"
+require "postcode_anywhere/bank"
 
 module PostcodeAnywhere
   
@@ -20,6 +21,11 @@ module PostcodeAnywhere
     return find_postcode(options)
   end
   
+  def self.validate_bank_details(options = {})
+    validate_key
+    validate_account(options)
+  end
+
   def self.find_by_number_and_postcode(number, postcode)
     lookup(:number => number, :postcode => postcode)
   end
@@ -38,6 +44,10 @@ module PostcodeAnywhere
     end
   end
   
+  def self.validate_account(options)
+    PostcodeAnywhere::BankAccountValidator.get_bank_details(options[:account_number], options[:sort_code])
+  end
+
   def self.find_postcode(options)
     PostcodeAnywhere::Lookup.lookup(:number => options[:number], :postcode => options[:postcode])
   end
