@@ -20,6 +20,7 @@ module PostcodeAnywhere
         url = SERVICE_ADDRESS + BY_POST_CODE_AND_BUILDING 
         url = "#{url}?Key=#{PostcodeAnywhere.key}&Postcode=#{CGI::escape(options[:postcode])}&Building=#{options[:number]}"
       end
+
       results = PostcodeAnywhere.get url
 
       multiple_results = !results["Table"]["Rows"].nil?
@@ -34,6 +35,7 @@ module PostcodeAnywhere
 
           address.line1 = x["StreetAddress"]
           address.company = x["Company"]
+          address.town = x["Place"]
 
           addresses << address
 

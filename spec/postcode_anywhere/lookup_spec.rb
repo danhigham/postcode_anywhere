@@ -10,6 +10,7 @@ describe PostcodeAnywhere::Lookup do
     
     it "should return address" do
       address = PostcodeAnywhere::Lookup.lookup(:number => 87, :postcode => "SW1X 7XL")
+
       address.company.should == "Harrods"
       address.line1.should == "87-135 Brompton Road"
     end

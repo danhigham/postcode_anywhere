@@ -44,6 +44,7 @@ describe PostcodeAnywhere do
 
       addresses.each do |address|
         address.line1.class.should == String
+        address.town.class.should == String
       end
 
     end
