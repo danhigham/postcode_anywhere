@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Table>
+<Columns Items="3">
+<Column Name="Id" Type="String"/>
+<Column Name="StreetAddress" Type="String"/>
+<Column Name="Place" Type="String"/>
+</Columns>
+<Rows Items="15">
+<Row Id="11604726.00" StreetAddress="2 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604736.00" StreetAddress="4 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604737.00" StreetAddress="6 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604738.00" StreetAddress="8 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604724.00" StreetAddress="10 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604725.00" StreetAddress="12 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604727.00" StreetAddress="22 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604728.00" StreetAddress="24 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604729.00" StreetAddress="26 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604730.00" StreetAddress="27 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604731.00" StreetAddress="28 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604732.00" StreetAddress="29 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604733.00" StreetAddress="30 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604734.00" StreetAddress="31 Melton Grange Road" Place="Melton Woodbridge"/>
+<Row Id="11604735.00" StreetAddress="33 Melton Grange Road" Place="Melton Woodbridge"/>
+</Rows>
+</Table>
