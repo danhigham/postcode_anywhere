@@ -23,7 +23,7 @@ module PostcodeAnywhere
 
   		bank = Bank.new
 
-  		bank.is_valid = results["Table"]["Row"]["IsCorrect"]
+  		bank.is_valid = results["Table"]["Row"]["IsCorrect"] == "True" ? true : false
   		bank.sort_code = results["Table"]["Row"]["CorrectedSortCode"]
   		bank.account_number = results["Table"]["Row"]["CorrectedAccountNumber"]
   		bank.name = results["Table"]["Row"]["Bank"]

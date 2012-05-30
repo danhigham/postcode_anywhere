@@ -5,7 +5,7 @@ describe PostcodeAnywhere::Validator do
     PostcodeAnywhere::Validator.valid_postcode?("S").should be_false
   end
   
-	it "should return true with postcode without space" do
+	it "should return true for postcode without space" do
     PostcodeAnywhere::Validator.valid_postcode?("S611LD").should be_true
   end
 
