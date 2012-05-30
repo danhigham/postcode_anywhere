@@ -4,8 +4,8 @@
 <IsCorrect>True</IsCorrect>
 <IsDirectDebitCapable>True</IsDirectDebitCapable>
 <StatusInformation>OK</StatusInformation>
-<CorrectedSortCode>208111</CorrectedSortCode>
-<CorrectedAccountNumber>60687782</CorrectedAccountNumber>
+<CorrectedSortCode>123456</CorrectedSortCode>
+<CorrectedAccountNumber>12345678</CorrectedAccountNumber>
 <IBAN>GB40BARC20811160687782</IBAN>
 <Bank>BARCLAYS BANK PLC</Bank>
 <BankBIC>BARCGB21</BankBIC>
